@@ -4,74 +4,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#2F5233">
-  <title>Biovert by CYCLO — Platform Komunitas Pengelolaan Sampah Organik</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Biovert by CYCLO — Dari Sampah Pasar Jadi Pakan & Pupuk</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="premium.css">
 </head>
-<body>
-  <!-- Header dengan Logo -->
-  <header class="header">
-    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-      <img src="file_0000000039ec81f59a56ae9305316b1d.png" alt="Logo Biovert" class="logo">
-      <nav>
-        <div class="nav-links" id="navMenu">
-          <a href="index.html">Beranda</a>
-          <a href="tentang.html">Tentang</a>
-          <a href="katalog.html">Katalog</a>
-          <a href="input.html">Input Data</a>
-          <a href="dashboard.html">Dashboard</a>
-          <a href="sponsor.html">Sponsor</a>
-          <a href="leaderboard.html">Leaderboard</a>
-          <a href="gabung.html">Bergabung</a>
+<body data-page="home">
+  <div id="site-header"></div>
+  <main>
+    <section class="hero premium-hero container">
+      <div class="hero-copy premium-reveal">
+        <p class="eyebrow">SIRKULASI YANG TERUKUR</p>
+        <h1>Satu pasar. Satu siklus. <em>Dampak nyata.</em></h1>
+        <p class="lead">Biovert mengubah sampah organik pasar menjadi pakan ternak dan pupuk kasgot, sekaligus memperkuat keseimbangan lingkungan, ekonomi, dan komunitas.</p>
+        <div class="actions">
+          <a class="btn primary" href="dashboard.html">Lihat Dampak Kami <span>→</span></a>
+          <a class="btn secondary" href="gabung.html">Mulai Berkolaborasi</a>
         </div>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero Section dengan Poster -->
-  <section class="hero-section">
-    <img 
-      src="file_0000000085b88230bf0b88f3895b531d.png" 
-      alt="Poster Biovert - Platform Pengelolaan Sampah Organik" 
-      class="hero-image"
-      loading="eager"
-    >
-  </section>
-
-  <!-- Main Content -->
-  <main class="container">
-    <section style="padding: 40px 0;">
-      <h1>Selamat Datang di Biovert</h1>
-      <p>Platform komunitas untuk pengelolaan sampah organik yang berkelanjutan dan menguntungkan.</p>
-      
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px;">
-        <div class="card">
-          <h3>Untuk Individu</h3>
-          <p>Kelola sampah organik Anda dengan mudah dan dapatkan poin reward.</p>
-          <button class="btn btn-primary">Pelajari Lebih Lanjut</button>
+      </div>
+      <div class="hero-visual premium-reveal">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <div class="hero-image placeholder-art">
+          <span class="hero-symbol">↻</span>
+          <div>
+            <strong>Organik hari ini,</strong>
+            <small>nutrisi esok hari.</small>
+          </div>
         </div>
-        <div class="card">
-          <h3>Untuk Komunitas</h3>
-          <p>Bangun program pengelolaan sampah organik di komunitas Anda.</p>
-          <button class="btn btn-primary">Bergabung Sekarang</button>
+        <div class="floating-card floating-top">
+          <span class="mini-dot"></span>
+          <div><small>Terolah bulan ini</small><strong>1.240 kg</strong></div>
         </div>
-        <div class="card">
-          <h3>Untuk Sponsor</h3>
-          <p>Dukung gerakan keberlanjutan dan kembangkan bisnis Anda.</p>
-          <button class="btn btn-secondary">Jadilah Sponsor</button>
+        <div class="floating-card floating-bottom">
+          <span class="mini-icon">✦</span>
+          <div><small>Poin mitra bertambah</small><strong>+168 poin</strong></div>
         </div>
       </div>
     </section>
   </main>
-
-  <!-- Footer -->
-  <footer style="background: var(--primary); color: var(--surface); padding: 30px 0; margin-top: 60px;">
-    <div class="container">
-      <p>&copy; 2024 Biovert by CYCLO. Semua hak dilindungi.</p>
-    </div>
-  </footer>
-
+  <div id="site-footer"></div>
   <script src="app.js"></script>
 </body>
 </html>
